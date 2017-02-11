@@ -1,0 +1,62 @@
+nav {
+	overflow: auto;
+}
+
+nav>ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav>ul li {
+	list-style: none;
+	float: left;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.gravatar {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.gravatar img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.jumbotron {
+	height: 100vh;
+	background-image: url(7.jpg);
+	color: aliceblue;
+	text-align: center;
+	padding: 200px;
+}
+
+.jumbotron h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+footer {
+	height: 250px;
+	clear: both;
+	background-color: #333;
+	color: white;
+}
+
+.ad .thumbnail {
+	border-style: none;
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	border: 1px solid;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	background-color: aqua;
+}

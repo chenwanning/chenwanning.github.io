@@ -1,0 +1,14 @@
+[class^="col-"] {
+	border: 1px solid;
+}
+
+.thumbnail {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.thumbnail img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
