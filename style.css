@@ -11,7 +11,7 @@ nav>ul li {
 	list-style: none;
 	float: left;
 	height: 50px;
-	width: 100px;
+	width: 140px;
 	text-align: center;
 	line-height: 50px;
 }
@@ -53,6 +53,10 @@ nav li a {
 	padding: 150px;
 }
 
+body {
+	background-color: rgba(135, 216, 235, 0.72);
+}
+
 footer {
 	height: 200px;
 	clear: both;
@@ -60,8 +64,109 @@ footer {
 	color: white;
 }
 
-.ad .thumbnail {
-	border-style: none;
+.thumbnail-0 {
+	width: 800px;
+	height: 460px;
+	margin-bottom: 2px;
+	padding: 0px;
+	border-bottom: 3px solid;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.thumbnail-0 img {
+	display: block;
+	width: 100%;
+}
+
+.thumbnail {
+	width: 330px;
+	margin-bottom: 4px;
+	padding: 8px;
+	border-bottom: 3px solid;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.caption>h3 {
+	margin: 10px 9px 10px;
+	color: #aaa;
+	letter-spacing: 2px;
+	font-family: sans-serif;
+}
+
+.caption>h3::before {
+	content: '';
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	margin-right: 5px;
+	border: 2px solid;
+	border-radius: 50%;
+	vertical-align: -5px;
+}
+
+.caption>p {
+	margin: 10px;
+	line-height: 1.5;
+}
+
+.thumbnail-1,
+.thumbnail-1 h3::before {
+	border-color: green;
+}
+
+.thumbnail-2,
+.thumbnail-2 h3::before {
+	border-color: #2922d4;
+}
+
+.thumbnail-3,
+.thumbnail-3 h3::before {
+	border-color: crimson;
+}
+
+.thumbnail-4,
+.thumbnail-4 h3::before {
+	border-color: #ef7924;
+}
+
+.thumbnail-5,
+.thumbnail-5 h3::before {
+	border-color: rgba(41, 194, 250, 0.97);
+}
+
+.thumbnail-6,
+.thumbnail-6 h3::before {
+	border-color: rgba(165, 8, 248, 0.87);
+}
+
+.thumbnail img {
+	display: block;
+	width: 100%;
+}
+
+.thumbnail a {
+	text-decoration: none;
+	display: block;
+	margin: -8px -8px -18px;
+	border-radius: inherit;
+	color: #777;
+	transition: all 0.5s;
+}
+
+.thumbnail-0 a {
+	transition: all 0.5s;
+}
+
+.thumbnail-0 a:hover {
+	box-shadow: 0 0 6px -1px rgba(0, 0, 0, 0.3); //無作用???
+	opacity: 0.7;
+}
+
+.thumbnail>a:hover {
+	box-shadow: 0 0 6px -1px rgba(0, 0, 0, 0.3);
+	opacity: 0.7;
 }
 
 .box {
@@ -75,7 +180,7 @@ footer {
 
 nav a {
 	display: inline-block;
-	width: 90px;
+	width: 110px;
 	height: 30px;
 	line-height: 30px;
 	text-align: center;
