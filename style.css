@@ -210,6 +210,7 @@ body {
 	background-image: url(img/about%20bgc.jpg);
 	background-size: cover;
 	opacity: 0.9;
+	background-repeat: no-repeat;
 }
 
 .container-bcgf {
